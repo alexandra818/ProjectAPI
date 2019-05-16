@@ -5,7 +5,7 @@ export class Contact {
       this.model = [{
         id: { type: Number, key: 'primary' },
         fullName: { type: String, maxlength: 24 },
-        email: { type: String, maxlength: 250 },
+        email: { type: String, maxlength: 24 },
         message: { type: String, maxlength: 250 },
         user_id: {
           type: Number,

@@ -12,6 +12,7 @@ class Rental {
     constructor(norm) {
         this.model = [{
                 id: { type: Number, key: 'primary' },
+                price: { type: String, maxlength: 24 },
                 location: { type: String, maxlength: 24 },
                 rules: { type: String, maxlength: 250 },
                 description: { type: String, maxlength: 250 },
